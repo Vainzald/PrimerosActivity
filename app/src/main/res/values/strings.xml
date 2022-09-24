@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ejercicios</string>
+    <string name="name_menu">Menu Principal</string>
+    <string name="name_saludar">Saludo</string>
+    <string name="name_conversor">Conversor</string>
+    <string name="name_contador">Contador</string>
+    <string name="btnSaludar">Saludar</string>
+    <string name="btnDevolver">Atras</string>
+    <string name="btnConversor">Conversor</string>
+    <string name="btnContador">Contador</string>
+    <string name="btnSalir">Salir</string>
+    <string name="convertir">Convertir</string>
+    <string name="conversor">Conversor</string>
+    <string name="clp">CLP</string>
+    <string name="textview">TextView</string>
+    <string name="convertirs">Convertir</string>
+</resources>
