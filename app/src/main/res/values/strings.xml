@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Ejercicios</string>
-    <string name="name_menu">Menu Principal</string>
+    <string name="app_name">Onetome</string>
+    <string name="name_menu">Onetome</string>
     <string name="name_saludar">Saludo</string>
     <string name="name_conversor">Conversor</string>
     <string name="name_contador">Contador</string>
@@ -14,4 +14,6 @@
     <string name="clp">CLP</string>
     <string name="textview">TextView</string>
     <string name="convertirs">Convertir</string>
+    <string name="btnFormulario">Formulario</string>
+    <string name="tituloMenu">Menu Principal</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.ejercicios
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -18,23 +19,24 @@ class MainActivity : AppCompatActivity() {
 
         val conversor : Button = findViewById(R.id.btnConversor)
 
+        val formulario : Button = findViewById(R.id.btnFormulario)
 
         saludo.setOnClickListener {
-            val intentSaludo = Intent(this, Saludar::class.java)
-            this.finish()
-            startActivity(intentSaludo)
+            startActivity(empezarActividad(this,Saludar()))
         }
 
         contador.setOnClickListener {
-            val intentContador = Intent(this, Contador::class.java)
-            this.finish()
-            startActivity(intentContador)
+            startActivity(empezarActividad(this,Contador()))
         }
 
+
         conversor.setOnClickListener {
-            val intentConversor = Intent(this, Conversor::class.java)
-            this.finish()
-            startActivity(intentConversor)
+            startActivity(empezarActividad(this,Conversor()))
+        }
+
+        formulario.setOnClickListener {
+            startActivity(empezarActividad(this,EjemplosAIEP()))
+
         }
 
         salir.setOnClickListener {
@@ -42,4 +44,10 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+}
+
+fun empezarActividad(activityContexto : Activity, activityEmpezar : Activity) : Intent{
+    val empezarActivity = Intent(activityContexto, activityEmpezar::class.java)
+    return empezarActivity
+
 }

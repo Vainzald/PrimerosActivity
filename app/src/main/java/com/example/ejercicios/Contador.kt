@@ -30,9 +30,7 @@ class Contador : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            val intentMenuPrincipal = Intent(this, MainActivity::class.java)
             this.finish()
-            startActivity(intentMenuPrincipal)
 
         }
     }

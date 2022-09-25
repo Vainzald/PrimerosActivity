@@ -13,7 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    <style name="Theme.ONETOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.ONETOME" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/independence</item>
         <item name="colorPrimaryVariant">@color/steel_teal</item>

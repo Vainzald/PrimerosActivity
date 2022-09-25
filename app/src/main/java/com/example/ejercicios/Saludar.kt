@@ -21,10 +21,7 @@ class Saludar : AppCompatActivity() {
         }
 
         atras.setOnClickListener {
-            val intentMainActivity = Intent(this, MainActivity::class.java)
             this.finish()
-            startActivity(intentMainActivity)
-
         }
     }
 }
