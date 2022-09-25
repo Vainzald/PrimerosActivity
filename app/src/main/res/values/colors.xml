@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Colors for ONETOMEm, Palette Colors -->
+    <color name="independence">#394053</color>
+    <color name="independence_secondary">#424859</color>
+    <color name="steel_teal">#558C8C</color>
+    <color name="steeel_teal_secondary">#608989</color>
+    <color name="fire_opal">#EE6352</color>
+    <color name="gainsboro">#E0E0E0</color>
+    <color name="lavender_gray">#CBCBD4</color>
 </resources>

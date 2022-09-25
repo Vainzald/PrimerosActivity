@@ -8,7 +8,7 @@
     tools:context=".EjemplosAIEP">
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/txvTituloRegistro"
         android:layout_width="388dp"
         android:layout_height="wrap_content"
         android:layout_margin="11dp"
@@ -21,25 +21,61 @@
         android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edTxtNombre"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:ems="10"
         android:hint="Nombre"
         android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:textAlignment="viewStart" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edTxtApellido"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:ems="10"
         android:hint="Apellido"
         android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:textAlignment="viewStart" />
 
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Fecha de Nacimiento"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Repetir Contraseña"
+        android:inputType="textPassword" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegistrarse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -57,7 +93,7 @@
         android:orientation="horizontal">
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/swtTerminos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="50dp"
