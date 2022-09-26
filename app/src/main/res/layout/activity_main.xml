@@ -43,15 +43,6 @@
         android:paddingTop="50dp">
 
         <Button
-            android:id="@+id/btnSalir"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
-            android:layout_marginBottom="5dp"
-            android:text="@string/btnSalir" />
-
-        <Button
             android:id="@+id/btnFormulario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,13 +72,21 @@
 
         <Button
             android:id="@+id/btnSaludar"
-            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_marginBottom="5dp"
             android:text="@string/btnSaludar" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/btnSalir" />
     </LinearLayout>
 
 </LinearLayout>
